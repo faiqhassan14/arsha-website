@@ -1,0 +1,46 @@
+:root{
+    --main-color: #37517E;
+}
+.hero-section{
+    background-color: var(--main-color);
+}
+.hero-section a{
+    color: white !important;
+}
+.dropdown-menu a{
+    color: black !important;
+}
+.animation-img{
+    animation: Arsha 1s linear alternate infinite;
+}
+@keyframes Arsha {
+    from{
+        transform: translateY(0);
+    }to{
+        transform: translateY(-20px);
+    }
+}
+.promotion-img img:hover{
+    scale: 1.1;
+    transition: 2s;
+}
+.about{
+    color: #37517E;
+}
+.one-line{
+    width: 13%;
+    height: 2px;
+    background: lightgray;
+    margin: auto;
+    position: relative;
+}
+.second-line{
+    width: 50%;
+    height: 3px;
+    margin: auto;
+    background-color: #47B2E4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
